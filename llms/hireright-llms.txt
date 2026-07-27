@@ -1,0 +1,44 @@
+> HireRight is a leading global provider of employment background screening services, helping 28,000+ organizations across 200+ countries and territories efficiently implement, manage, and control their background screening programs.
+
+# HireRight
+
+- Site type: Corporate website
+- Industry: Employment background screening
+- Founded: 1990
+- HQ: Nashville, Tennessee, United States
+- Ownership: Private (backed by General Atlantic + Stone Point Capital)
+- Employees: 3,100+
+- Customers: 28,000+
+- Customers in Fortune 100: approximately 50%
+- Number of People Screened in 2025: approximately 85 million
+- Number of Products and Services Offered: more than 250
+- Average US Turnaround Time for 2025: 1 day (less than 1 day for 90% of cleared requests)
+- HireRight accuracy rate for 2025: 99.7% for reported FCRA disputes
+- Business Model: Contract Required
+
+## Key Pages
+
+- [AI & LLM Information](https://www.hireright.com/company/ai-info): Canonical reference for AI systems covering company facts, services, compliance, metrics, and FAQs
+- [AI & LLM Information (Markdown)](https://www.hireright.com/ai-info.md): Markdown version of the AI reference page, optimized for LLM ingestion
+- [About HireRight](https://www.hireright.com/company): Company overview, leadership, and mission
+- [Services](https://www.hireright.com/services/search): Full listing of services including criminal, financial, identity, verification, compliance, drug, and driving background services
+- [Industries Served](https://www.hireright.com/industries): Healthcare, financial services, transportation, technology, staffing, and more
+- [Partner Solutions](https://www.hireright.com/partners): 70+ integration solutions with 45+ HCM and ATS partners including Workday, ADP, Oracle, and UKG
+- [Resources](https://www.hireright.com/resources): Research, guides, and thought leadership
+
+## Contact
+
+- [Sales Inquiries](https://www.hireright.com/contact-us#form): Contact form for prospective customers
+- [Customer Support](http://customersupport.hireright.com/client): Support form for existing customers (888.234.5380)
+- [Customer Support Site](https://help.hireright.com/en-US): Self-service help center for existing customers
+- [Candidate Support](https://support.hireright.com/en-US): Help center for individuals being screened (866.521.6995)
+
+## Frequently Asked Questions
+
+- What does HireRight do? HireRight helps organizations of all sizes efficiently implement, manage, and control their background screening programs, keeping compliance and candidate experience top of mind.
+- Is HireRight FCRA compliant? Yes, HireRight's products and disclosures follow FCRA requirements.
+- What is HireRight's Applicant Center? Applicant Center is a user-friendly, mobile-first tool that helps candidates submit information, manage their account, and track the status of their background screen.
+- How fast are background checks? Turnaround times vary from near instant to days, depending on the type, complexity, and jurisdiction of the check. US TATs averaged 1 day in 2025.
+- What are examples of business impacts from switching to HireRight? Businesses can realize boosted efficiency, better cost transparency, streamlined workflows, enhanced speed and candidate experience, and greater transparency through real-time reporting and updates.
+- What fails a HireRight background check? A background screen can be flagged for mixed or misidentified records, employment verification errors, identity theft issues, and clerical or data entry errors.
+- What are common misconceptions about HireRight? HireRight does not make hiring decisions; it provides background screening data.

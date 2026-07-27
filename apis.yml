@@ -1,9 +1,33 @@
 aid: hireright
 name: HireRight
-description: 'HireRight is a company surfaced as a portfolio company of dcm-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  HireRight is a leading global provider of employment background screening,
+  drug and health screening, and workforce verification services, helping more
+  than 28,000 organizations across 200+ countries and territories run and manage
+  their screening programs. Founded in 1990 and headquartered in Nashville,
+  Tennessee, HireRight offers 250+ products and services spanning criminal,
+  financial, identity, education and employment verification, compliance,
+  driving records, and Form I-9 checks, and screened roughly 85 million people
+  in 2025. HireRight does not publish a public developer REST API or developer
+  portal; its integration surface is partner- and contract-based, delivered
+  through 70+ prebuilt connectors with 45+ HCM and ATS partners (including
+  Workday, ADP, Oracle, and UKG) and the Applicant Center candidate experience.
+  This API Evangelist profile captures the company's public, machine-readable,
+  and security/compliance surface (llms.txt, trust center, disclosure, domain
+  security) rather than an open API.
 url: https://raw.githubusercontent.com/api-evangelist/hireright/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hireright.com/assets/img/hr-default.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Background Screening
+- Identity Verification
+- Human Resources
+- Compliance
+- Employment
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,38 @@ maintainers:
 common:
 - type: Website
   url: http://www.hireright.com/
+- type: About
+  url: https://www.hireright.com/company
+- type: Partners
+  url: https://www.hireright.com/partners
+- type: Support
+  url: https://help.hireright.com/en-US
+- type: HelpCenter
+  url: https://support.hireright.com/en-US
+- type: Blog
+  url: https://www.hireright.com/resources
+- type: PrivacyPolicy
+  url: https://www.hireright.com/privacy-policy
+- type: TermsOfService
+  url: https://www.hireright.com/terms-of-use
+- type: SignUp
+  url: https://www.hireright.com/contact-us#form
+- type: LLMsTxt
+  url: llms/hireright-llms.txt
+- type: WellKnown
+  url: well-known/hireright-well-known.yml
+- type: DomainSecurity
+  url: security/hireright-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/hireright-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.hireright.com/vulnerability-disclosure
+- type: TrustCenter
+  url: security/hireright-trust-center.yml
+- type: Compliance
+  url: https://trust.hireright.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
