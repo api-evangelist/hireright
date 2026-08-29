@@ -16,6 +16,17 @@ description: >-
   and security/compliance surface (llms.txt, trust center, disclosure, domain
   security) rather than an open API.
 url: https://raw.githubusercontent.com/api-evangelist/hireright/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
