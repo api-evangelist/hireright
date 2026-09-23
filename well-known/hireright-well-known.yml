@@ -2,20 +2,25 @@ generated: '2026-07-19'
 method: probed
 source: live GET probes of /.well-known/* on HireRight hosts
 host: https://www.hireright.com
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-notes: >-
-  No /.well-known/ discovery documents are published on www.hireright.com or
-  connect.hireright.com (all 404). developer.hireright.com and api.hireright.com
-  do not resolve. HireRight publishes no public API discovery surface; integration
-  is partner/contract-based (HCM/ATS connectors). A machine-readable llms.txt IS
-  published at https://www.hireright.com/llms.txt (captured in llms/).
+notes: No /.well-known/ discovery documents are published on www.hireright.com or connect.hireright.com
+  (all 404). developer.hireright.com and api.hireright.com do not resolve. HireRight publishes no public
+  API discovery surface; integration is partner/contract-based (HCM/ATS connectors). A machine-readable
+  llms.txt IS published at https://www.hireright.com/llms.txt (captured in llms/).
+hosts:
+- host: https://www.hireright.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
